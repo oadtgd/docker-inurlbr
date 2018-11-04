@@ -12,7 +12,7 @@
    +-----------------------------------------------------------------------------+
 ```
 
-### How to build?
+### How to build
 ```
 git clone https://github.com/gmdutra/docker-inurlbr.git
 cd docker-inurlbr
