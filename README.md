@@ -530,7 +530,7 @@ docker exec inurlbr ./inurlbr.php --dork-file 'dorks_Wordpress_revslider.txt' -s
 ----------------------------------------------
                 Docker Version
 ----------------------------------------------
-  [+] AUTOR:        Gabriel Dutra (c0olr00t)
+  [+] AUTOR:        Gabriel Dutra (Rand0m)
   [+] EMAIL:        gabrieldmdutra@gmail.com
   [+] LINKEDIN:     linkedin.com/in/gmdutra/
 ----------------------------------------------
