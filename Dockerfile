@@ -16,8 +16,6 @@ RUN apt install -y --force-yes \
 
 #RUN git clone https://github.com/googleinurl/SCANNER-INURLBR.git
 
-COPY SCANNER-INURLBR/inurlbr.php $PWD
-
-WORKDIR $PWD/SCANNER-INURLBR
-RUN chmod +x inurlbr.php
+COPY inurlbr.php .
 RUN ln -s $PWD/inurlbr.php /usr/bin/inurlbr.php
+RUN chmod +x /usr/bin/inurlbr.php
