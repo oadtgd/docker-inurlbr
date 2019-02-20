@@ -14,7 +14,10 @@ RUN apt install -y --force-yes \
     php5-curl \
     git
 
-RUN git clone https://github.com/googleinurl/SCANNER-INURLBR.git
+#RUN git clone https://github.com/googleinurl/SCANNER-INURLBR.git
+
+COPY SCANNER-INURLBR $PWD
+
 WORKDIR $PWD/SCANNER-INURLBR
 RUN chmod +x inurlbr.php
 RUN ln -s $PWD/inurlbr.php /usr/bin/inurlbr.php
